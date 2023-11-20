@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to 'Dane' as a string.
+// Then we create a conditional.
+// We check if 'Dane' is a true exact match to 'Mary' if so we console.log 'Hi, Mary!'
+// Else if not true, then we console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a secret variable and set it to null and then we create a code variable and set it to 123 as a number.
+// Then we create a conditional.
+// If code variable is exact match to 123 then secret is set to 'super' and code is multiplied by 2.
+// Then if code is greater than 250 secret is set to 'duper'.
+// We console.log secret which reads as 'superduper'.
 
 //CODE
 /*
@@ -70,10 +71,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create the varaibles isStudent set to true, age set to 34 number, and zip set
+// to 55407 number. Then we create if, else if conditional.
+// If isStudent is exact match to true and zip is greater than 80000 then console.log 'You're a student on the West Coast!'
+// Else if isStudent is flase or age is less than 30 then console.log 'What are your hobbies?'
+// Then else if isStudent is true then console.log 'Welcome to Prime!' Else will console.log 'How about the weather?'
+//The console.log will read as 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,10 +133,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to 'blue' and colorTwo to 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - Both colorOne and colorTwo need to be set to the string 'purple'
+// add colorTwo = 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +153,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+FIX - Instructions say temp is greater than 39 and time is greater or equal to 4. 
+// the two || means or it should be &&.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +168,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - The minAge and age need to be fliped around.  The way its written now
+// anyone above the minAge of 21 would get the 'no entry' console.log. Should be 
+// minAge >= age.
 if(minAge <= age) {
   console.log('no entry');
 } else {
