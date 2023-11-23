@@ -45,11 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We create a secret variable and set it to null and then we create a code variable and set it to 123 as a number.
-// Then we create a conditional.
-// If code variable is exact match to 123 then secret is set to 'super' and code is multiplied by 2.
-// Then if code is greater than 250 secret is set to 'duper'.
-// We console.log secret which reads as 'superduper'.
+// We create a secret variable and set it to undefined and then we create a code variable and set it to 123 as a number.
+// Then we create a if conditional.
+// If code variable is exact match to 123 then secret is set to 'super' and code is multiplied by 2. Making it 246.
+// Then if code is greater than 250 IT IS NOT secret is set to 'duper'. So secret is still 'super'.
+// We console.log secret which reads as 'super'.
 
 //CODE
 /*
@@ -168,9 +168,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-// FIX - The minAge and age need to be fliped around.  The way its written now
-// anyone above the minAge of 21 would get the 'no entry' console.log. Should be 
-// minAge >= age.
+// FIX - The code needs to switch the console.logs around. It shoudl be :
+//if(minAge <= age) {
+//  console.log('enter');
+//} else {
+//  console.log('no entry');
+//}
 if(minAge <= age) {
   console.log('no entry');
 } else {
